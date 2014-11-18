@@ -1,0 +1,7 @@
+The bins for the histogram in my code were just the number of days between the timeline.
+This is because there were only 68 days and this was a number small enough to be represented 
+efficienctly in the plot. By using strftime to remove the seconds and hours in the datetime,
+we could get a large number of values in each of the bins. We could also have tried doing it by hour,
+since the submission time is given in hour, but this would lead to an extremely large number of bins 
+in the plot. Manually selecting the bins is also an option but it is highly complicated and
+the results are not even much better than the ones we get from using the days as the bins.
